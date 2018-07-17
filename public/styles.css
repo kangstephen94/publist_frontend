@@ -1,6 +1,12 @@
 body {
     background-color: white;
 }
+
+#main {
+ width: 80%;
+ margin: auto;
+}
+
 .news {
     display: flex;
     justify-content: space-around;
@@ -12,7 +18,8 @@ body {
     list-style: none;
     max-height: 550px;
     width: 29%;
-    padding: 15px;
+    padding: 20px;
+    padding-top: 10px;
     border: 1px solid black;
     border-radius: 5px;
     margin-top: 40px;
@@ -31,13 +38,12 @@ body {
 .article a {
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .article a:hover {
     text-decoration: underline;
     color: gray;
-    font-size: 25px;
 }
 
 .article img {
