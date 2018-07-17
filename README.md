@@ -10,6 +10,7 @@ This was completed in approximately 2 hours and 45 minutes.
 ## Future Implementations
 * Make the page mobile responsive/dynamic through the use of media queries
 * Fix unlinked media image sources
+* Finish adding all information about articles
 * Use of better fonts
 
 
