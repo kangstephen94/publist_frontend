@@ -1,3 +1,6 @@
+body {
+    background-color: white;
+}
 .news {
     display: flex;
     justify-content: space-around;
@@ -11,7 +14,12 @@
     width: 29%;
     padding: 20px;
     border: 1px solid black;
+    border-radius: 5px;
     margin-top: 40px;
+}
+
+.title {
+    text-align: center;
 }
 
 
@@ -30,4 +38,5 @@
 .article img {
     width: 100%;
     height: 50%;
+    min-height: 200px;
 }
