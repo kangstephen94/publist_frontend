@@ -59,3 +59,8 @@ body {
     min-height: 200px;
     margin-top: 30px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}

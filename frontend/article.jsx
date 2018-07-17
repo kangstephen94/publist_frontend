@@ -14,13 +14,15 @@ export const Article = (props) => {
     }
 
     return (
-        <li className='article'>
+        <a className='article' target="_blank" href={link}>
+            <li>
             <div className='title'>
             <h1><a target="_blank" href={link}>{title}</a></h1>
             {author}
             </div>
-            <a target="_blank" href={link}><img src={image}></img></a>
+            <a><img src={image}></img></a>
             <p>{description}</p>
         </li>
+        </a>
     )
 }
