@@ -5,7 +5,7 @@
 
 Then, open up your browser and type in: localhost:8000
 
-This was completed in approximately 2 hours and 45 minutes.
+This was completed in approximately 2 hours and 15 minutes.
 
 ## Future Implementations
 * Make the page mobile responsive/dynamic through the use of media queries
