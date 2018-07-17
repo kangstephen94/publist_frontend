@@ -11,7 +11,7 @@ export const Article = (props) => {
             <div className='title'>
             <h1><a href={link}>{title}</a></h1>
             </div>
-            <img src={image}></img>
+            <a href={link}><img src={image}></img></a>
             <p>{description}</p>
         </li>
     )
