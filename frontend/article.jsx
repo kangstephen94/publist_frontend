@@ -9,9 +9,9 @@ export const Article = (props) => {
     return (
         <li className='article'>
             <div className='title'>
-            <h1><a href={link}>{title}</a></h1>
+            <h1><a target="_blank" href={link}>{title}</a></h1>
             </div>
-            <a href={link}><img src={image}></img></a>
+            <a target="_blank" href={link}><img src={image}></img></a>
             <p>{description}</p>
         </li>
     )
